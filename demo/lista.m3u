@@ -36,21 +36,21 @@ https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8?demo=17
 #EXTINF:-1 tvg-id="cocina" tvg-logo="https://rupnardev.github.io/demo/img/logo-cocina.png" group-title="Documentales",Cocina Fácil
 https://test-streams.mux.dev/tos_ismc/main.m3u8?demo=18
 #EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-faro.jpg" group-title="Estrenos;Drama",El último faro (2026)
-https://media.w3.org/2010/05/bunny/movie.mp4?demo=19
+https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov?demo=19
 #EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-horizonte.jpg" group-title="Estrenos;Acción",Horizonte rojo (2026)
 https://media.w3.org/2010/05/sintel/trailer.mp4?demo=20
 #EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-cristal.jpg" group-title="Estrenos;Ciencia ficción",La ciudad de cristal (2025)
-https://media.w3.org/2010/05/bunny/trailer.mp4?demo=21
+https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4?demo=21
 #EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-ecos.jpg" group-title="Suspense",Ecos del norte (2024)
 https://test-videos.co.uk/vids/jellyfish/mp4/h264/720/Jellyfish_720_10s_5MB.mp4?demo=22
 #EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-selene.jpg" group-title="Aventura",Viaje a Selene (2025)
 https://media.w3.org/2010/05/sintel/trailer.mp4?demo=23
 #EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-lluvia.jpg" group-title="Drama",Bajo la lluvia (2023)
-https://media.w3.org/2010/05/bunny/movie.mp4?demo=24
+https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_5MB.mp4?demo=24
 #EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-guardian.jpg" group-title="Aventura",El guardián del bosque (2024)
-https://media.w3.org/2010/05/bunny/trailer.mp4?demo=25
+https://test-videos.co.uk/vids/sintel/mp4/h264/1080/Sintel_1080_10s_5MB.mp4?demo=25
 #EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-lisboa.jpg" group-title="Comedia",Medianoche en Lisboa (2022)
-https://media.w3.org/2010/05/bunny/movie.mp4?demo=26
+https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4?demo=26
 #EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-orion.jpg" group-title="Estrenos;Suspense",Código Orión (2026)
 https://media.w3.org/2010/05/sintel/trailer.mp4?demo=27
 #EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-nora.jpg" group-title="Infantil",Las alas de Nora (2025)
