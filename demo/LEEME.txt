@@ -1,0 +1,8 @@
+Lista M3U de demostración de Rupnar IPTV (para probar la app y para la revisión de las tiendas).
+
+Dirección: https://rupnardev.github.io/demo/lista.m3u
+
+Todo el contenido es inventado: nombres de canales, películas, series, logos y carátulas (generados, sin marcas reales).
+Los vídeos son de prueba de libre uso:
+  - Big Buck Bunny, Elephants Dream, Sintel (c) Blender Foundation, licencia CC BY.
+  - Flujos de prueba públicos de Mux, Apple, Unified Streaming, Akamai y test-videos.co.uk.

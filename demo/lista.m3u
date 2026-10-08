@@ -1,0 +1,81 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="aurora" tvg-logo="https://rupnardev.github.io/demo/img/logo-aurora.png" group-title="Generalistas",Aurora TV
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8?demo=1
+#EXTINF:-1 tvg-id="brisa" tvg-logo="https://rupnardev.github.io/demo/img/logo-brisa.png" group-title="Generalistas",Canal Brisa
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8?demo=2
+#EXTINF:-1 tvg-id="nova" tvg-logo="https://rupnardev.github.io/demo/img/logo-nova.png" group-title="Generalistas;Noticias",Nova 24
+https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8?demo=3
+#EXTINF:-1 tvg-id="estrella" tvg-logo="https://rupnardev.github.io/demo/img/logo-estrella.png" group-title="Generalistas",Estrella TV
+https://test-streams.mux.dev/tos_ismc/main.m3u8?demo=4
+#EXTINF:-1 tvg-id="sol" tvg-logo="https://rupnardev.github.io/demo/img/logo-sol.png" group-title="Generalistas",Canal Sol
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8?demo=5
+#EXTINF:-1 tvg-id="uno" tvg-logo="https://rupnardev.github.io/demo/img/logo-uno.png" group-title="Generalistas",Uno Directo
+https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8?demo=6
+#EXTINF:-1 tvg-id="telemar" tvg-logo="https://rupnardev.github.io/demo/img/logo-telemar.png" group-title="Generalistas",Telemar
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8?demo=7
+#EXTINF:-1 tvg-id="ciudad" tvg-logo="https://rupnardev.github.io/demo/img/logo-ciudad.png" group-title="Generalistas",Ciudad TV
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8?demo=8
+#EXTINF:-1 tvg-id="onda" tvg-logo="https://rupnardev.github.io/demo/img/logo-onda.png" group-title="Generalistas",Onda Norte
+https://playertest.longtailvideo.com/adaptive/elephants_dream_v4/index.m3u8?demo=9
+#EXTINF:-1 tvg-id="deporte" tvg-logo="https://rupnardev.github.io/demo/img/logo-deporte.png" group-title="Deportes",Mundo Deporte
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8?demo=10
+#EXTINF:-1 tvg-id="gol" tvg-logo="https://rupnardev.github.io/demo/img/logo-gol.png" group-title="Deportes",Gol Total
+https://test-streams.mux.dev/tos_ismc/main.m3u8?demo=11
+#EXTINF:-1 tvg-id="cinema" tvg-logo="https://rupnardev.github.io/demo/img/logo-cinema.png" group-title="Cine",Cinema+ (varios audios y subtítulos)
+https://playertest.longtailvideo.com/adaptive/elephants_dream_v4/index.m3u8?demo=12
+#EXTINF:-1 tvg-id="clasicos" tvg-logo="https://rupnardev.github.io/demo/img/logo-clasicos.png" group-title="Cine",Clásicos
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8?demo=13
+#EXTINF:-1 tvg-id="peque" tvg-logo="https://rupnardev.github.io/demo/img/logo-peque.png" group-title="Infantil",Peque Club
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8?demo=14
+#EXTINF:-1 tvg-id="ritmo" tvg-logo="https://rupnardev.github.io/demo/img/logo-ritmo.png" group-title="Música",Ritmo TV
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8?demo=15
+#EXTINF:-1 tvg-id="viajes" tvg-logo="https://rupnardev.github.io/demo/img/logo-viajes.png" group-title="Documentales",Viajes HD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8?demo=16
+#EXTINF:-1 tvg-id="natura" tvg-logo="https://rupnardev.github.io/demo/img/logo-natura.png" group-title="Documentales",Natura Viva
+https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8?demo=17
+#EXTINF:-1 tvg-id="cocina" tvg-logo="https://rupnardev.github.io/demo/img/logo-cocina.png" group-title="Documentales",Cocina Fácil
+https://test-streams.mux.dev/tos_ismc/main.m3u8?demo=18
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-faro.jpg" group-title="Estrenos;Drama",El último faro (2026)
+https://media.w3.org/2010/05/bunny/movie.mp4?demo=19
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-horizonte.jpg" group-title="Estrenos;Acción",Horizonte rojo (2026)
+https://media.w3.org/2010/05/sintel/trailer.mp4?demo=20
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-cristal.jpg" group-title="Estrenos;Ciencia ficción",La ciudad de cristal (2025)
+https://media.w3.org/2010/05/bunny/trailer.mp4?demo=21
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-ecos.jpg" group-title="Suspense",Ecos del norte (2024)
+https://test-videos.co.uk/vids/jellyfish/mp4/h264/720/Jellyfish_720_10s_5MB.mp4?demo=22
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-selene.jpg" group-title="Aventura",Viaje a Selene (2025)
+https://media.w3.org/2010/05/sintel/trailer.mp4?demo=23
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-lluvia.jpg" group-title="Drama",Bajo la lluvia (2023)
+https://media.w3.org/2010/05/bunny/movie.mp4?demo=24
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-guardian.jpg" group-title="Aventura",El guardián del bosque (2024)
+https://media.w3.org/2010/05/bunny/trailer.mp4?demo=25
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-lisboa.jpg" group-title="Comedia",Medianoche en Lisboa (2022)
+https://media.w3.org/2010/05/bunny/movie.mp4?demo=26
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-orion.jpg" group-title="Estrenos;Suspense",Código Orión (2026)
+https://media.w3.org/2010/05/sintel/trailer.mp4?demo=27
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-nora.jpg" group-title="Infantil",Las alas de Nora (2025)
+https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_5MB.mp4?demo=28
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-brumas.jpg" group-title="Suspense",La isla de las brumas (2023)
+https://test-videos.co.uk/vids/sintel/mp4/h264/720/Sintel_720_10s_5MB.mp4?demo=29
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-vecinos.jpg" group-title="Series comedia",Los vecinos del quinto S01E01 - La mudanza
+https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_5MB.mp4?demo=30
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-vecinos.jpg" group-title="Series comedia",Los vecinos del quinto S01E02 - La reunión de vecinos
+https://test-videos.co.uk/vids/sintel/mp4/h264/720/Sintel_720_10s_5MB.mp4?demo=31
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-vecinos.jpg" group-title="Series comedia",Los vecinos del quinto S01E03 - El ascensor
+https://test-videos.co.uk/vids/jellyfish/mp4/h264/720/Jellyfish_720_10s_5MB.mp4?demo=32
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-vecinos.jpg" group-title="Series comedia",Los vecinos del quinto S02E01 - Nuevos inquilinos
+https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_5MB.mp4?demo=33
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-vecinos.jpg" group-title="Series comedia",Los vecinos del quinto S02E02 - La fiesta
+https://test-videos.co.uk/vids/sintel/mp4/h264/720/Sintel_720_10s_5MB.mp4?demo=34
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-valmar.jpg" group-title="Series fantasía",Crónicas de Valmar S01E01 - El heredero
+https://test-videos.co.uk/vids/sintel/mp4/h264/720/Sintel_720_10s_5MB.mp4?demo=35
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-valmar.jpg" group-title="Series fantasía",Crónicas de Valmar S01E02 - La torre del este
+https://test-videos.co.uk/vids/jellyfish/mp4/h264/720/Jellyfish_720_10s_5MB.mp4?demo=36
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-valmar.jpg" group-title="Series fantasía",Crónicas de Valmar S01E03 - El pacto
+https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_5MB.mp4?demo=37
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-valmar.jpg" group-title="Series fantasía",Crónicas de Valmar S02E01 - El regreso
+https://test-videos.co.uk/vids/sintel/mp4/h264/720/Sintel_720_10s_5MB.mp4?demo=38
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-lab9.jpg" group-title="Series ciencia ficción",Laboratorio 9 S01E01 - Señal
+https://test-videos.co.uk/vids/jellyfish/mp4/h264/720/Jellyfish_720_10s_5MB.mp4?demo=39
+#EXTINF:-1 tvg-logo="https://rupnardev.github.io/demo/img/poster-lab9.jpg" group-title="Series ciencia ficción",Laboratorio 9 S01E02 - Ruido
+https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_5MB.mp4?demo=40
