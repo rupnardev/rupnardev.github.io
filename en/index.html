@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rupnar IPTV — IPTV player for Windows</title>
-  <meta name="description" content="Rupnar IPTV is a free IPTV player for Windows. Use your own Xtream server or M3U playlist: live TV with programme guide, movies, series, continue watching, favourites and more. No content included.">
+  <title>Rupnar IPTV — IPTV player for Windows and Android</title>
+  <meta name="description" content="Rupnar IPTV is a free IPTV player for Windows and Android. Use your own Xtream server or M3U playlist: live TV with programme guide, movies, series, continue watching, favourites and more. No content included.">
   <meta name="theme-color" content="#070b17">
   <link rel="canonical" href="https://rupnardev.github.io/en/">
   <link rel="alternate" hreflang="es" href="https://rupnardev.github.io/">
@@ -12,7 +12,7 @@
   <link rel="alternate" hreflang="x-default" href="https://rupnardev.github.io/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Rupnar IPTV">
-  <meta property="og:title" content="Rupnar IPTV — IPTV player for Windows">
+  <meta property="og:title" content="Rupnar IPTV — IPTV player for Windows and Android">
   <meta property="og:description" content="Free IPTV player. Use your own Xtream server or M3U playlist. No content included.">
   <meta property="og:url" content="https://rupnardev.github.io/en/">
   <meta property="og:image" content="https://rupnardev.github.io/assets/img/og-en.jpg">
@@ -27,7 +27,7 @@
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "Rupnar IPTV",
-    "operatingSystem": "Windows 10, Windows 11",
+    "operatingSystem": "Windows 10, Windows 11, Android 7.0+",
     "applicationCategory": "MultimediaApplication",
     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
     "downloadUrl": "https://github.com/rupnardev/rupnariptv-releases/releases/latest/download/RupnarIPTV-Setup.exe",
@@ -68,15 +68,15 @@
     <div class="wrap">
       <img class="hero-icon" src="../assets/img/icon-256.png" alt="Rupnar IPTV icon" width="96" height="96">
       <h1>Your IPTV, <span class="grad">well organised</span> and easy to watch</h1>
-      <p class="lead">Rupnar IPTV is a free player for Windows. Add your Xtream server or M3U playlist and enjoy live TV with a programme guide, movies and series, with everything in its place.</p>
+      <p class="lead">Rupnar IPTV is a free player for Windows and Android. Add your Xtream server or M3U playlist and enjoy live TV with a programme guide, movies and series, with everything in its place.</p>
       <div class="hero-cta">
         <a class="btn btn-primary btn-lg" href="#download">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.5 10.5 4.4v7.1H3zM11.5 4.3 21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zM11.5 12.5H21V21l-9.5-1.3z"/></svg>
           Download for Windows
         </a>
-        <a class="btn btn-ghost btn-lg" href="#features">See features</a>
+        <a class="gp-badge" href="https://play.google.com/store/apps/details?id=com.rupnar.iptv" rel="noopener"><img src="../assets/img/gp-en.png" alt="Get it on Google Play" width="150" height="58"></a>
       </div>
-      <p class="hero-meta">Free · No ads · No sign-up · English and Spanish</p>
+      <p class="hero-meta">Free · No ads · No sign-up · Windows and Android · English and Spanish</p>
       <div class="hero-shot frame">
         <img src="../assets/img/shots/en/02-menu.webp" srcset="../assets/img/shots/en/02-menu-sm.webp 800w, ../assets/img/shots/en/02-menu.webp 1920w" sizes="(max-width: 1100px) 100vw, 1040px" width="1920" height="1080" alt="Rupnar IPTV main menu with Live TV, Series, Movies and the Continue watching row" fetchpriority="high">
       </div>
@@ -89,7 +89,7 @@
       <div class="section-head">
         <span class="eyebrow">Features</span>
         <h2>Everything you expect from a good player</h2>
-        <p>Designed to be comfortable with a mouse or with the keyboard alone.</p>
+        <p>On PC, with a mouse or the keyboard alone; on phones and tablets, with a touch interface.</p>
       </div>
       <div class="features">
         <article class="card feature">
@@ -125,7 +125,7 @@
         <article class="card feature">
           <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 14h6v6h-6z"/><path d="M14 4h6v6M4 14v6h6"/></svg></div>
           <h3>Full-featured player</h3>
-          <p>Playback speed, picture-in-picture, full screen, remembered volume, "Go to live" and keyboard shortcuts.</p>
+          <p>Playback speed, picture-in-picture, full screen, "Go to live" and, on PC, keyboard shortcuts.</p>
         </article>
         <article class="card feature">
           <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 4h16v12H4z"/><path d="M8 20h8M12 16v4"/><path d="M8 8l3 2-3 2M13 12h3"/></svg></div>
@@ -135,7 +135,7 @@
         <article class="card feature">
           <div class="ico"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div>
           <h3>Private and always up to date</h3>
-          <p>Your login details are stored encrypted on your PC. No accounts, no tracking. Updates itself.</p>
+          <p>Your login details are stored encrypted on your device. No accounts, no tracking. Updates itself.</p>
         </article>
       </div>
     </div>
@@ -174,12 +174,13 @@
         <div class="frame"><button type="button" data-full="../assets/img/shots/en/10-audio-subtitulos.webp" data-caption="Choose audio language and subtitles"><img src="../assets/img/shots/en/10-audio-subtitulos-sm.webp" srcset="../assets/img/shots/en/10-audio-subtitulos-sm.webp 800w, ../assets/img/shots/en/10-audio-subtitulos.webp 1920w" sizes="(max-width: 900px) 100vw, 640px" width="1920" height="1080" loading="lazy" alt="Player with the audio and subtitles menu open"></button></div>
         <div>
           <span class="eyebrow">Player</span>
-          <h3>Full controls, with mouse or keyboard</h3>
+          <h3>Full controls, on PC and on mobile</h3>
           <ul>
             <li>Audio and subtitles, speed from 0.5× to 2×.</li>
             <li>Picture-in-picture and full screen.</li>
             <li>10-second skips, previous and next episode.</li>
-            <li>Shortcuts: Space, arrows, F, M, P, A, C, F11…</li>
+            <li>On mobile: tap to show the controls and double-tap either side to skip 10 s.</li>
+            <li>On PC, shortcuts: Space, arrows, F, M, P, A, C, F11…</li>
           </ul>
         </div>
       </div>
@@ -204,7 +205,7 @@
       <div class="section-head">
         <span class="eyebrow">Screenshots</span>
         <h2>This is Rupnar IPTV</h2>
-        <p>Tap an image to see it full size.</p>
+        <p>Screenshots of the Windows version. Tap an image to see it full size.</p>
       </div>
       <div class="gallery">
         <figure><button type="button" data-full="../assets/img/shots/en/01-cuentas.webp"><img src="../assets/img/shots/en/01-cuentas-sm.webp" width="800" height="450" loading="lazy" alt="Multiple saved accounts (Xtream and M3U)"></button><figcaption>Multiple saved accounts</figcaption></figure>
@@ -230,8 +231,8 @@
     <div class="wrap">
       <div class="section-head">
         <span class="eyebrow">Download</span>
-        <h2>Install it on your PC</h2>
-        <p>Always the latest version. After that, it updates itself.</p>
+        <h2>Download it for free</h2>
+        <p>For Windows PCs and for Android phones and tablets. After that, it updates itself.</p>
       </div>
       <div class="download">
         <div class="card download-main">
@@ -244,8 +245,15 @@
           <p class="req" id="release-info" data-label="Version">Windows 10 and 11 (64-bit) · Free</p>
           <p class="alt"><a href="https://github.com/rupnardev/rupnariptv-releases/releases" rel="noopener">See all versions</a></p>
         </div>
+        <div class="card download-main">
+          <svg class="win" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
+          <h3>Rupnar IPTV for Android</h3>
+          <a class="gp-badge" href="https://play.google.com/store/apps/details?id=com.rupnar.iptv" rel="noopener"><img src="../assets/img/gp-en.png" alt="Get it on Google Play" width="165" height="64"></a>
+          <p class="req">Phones and tablets with Android 7.0 or later · Free</p>
+          <p class="alt">Installs and updates through Google Play.</p>
+        </div>
         <div class="card notice">
-          <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 20h20z"/><path d="M12 10v4M12 17h.01"/></svg> Windows SmartScreen warning</h3>
+          <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 20h20z"/><path d="M12 10v4M12 17h.01"/></svg> Windows: SmartScreen warning</h3>
           <p>The first time, Windows may show <strong>"Windows protected your PC"</strong>. This is normal: the installer doesn't have a paid digital signature yet, so Windows doesn't recognise it yet. To install:</p>
           <ol class="steps">
             <li>Open <strong>RupnarIPTV-Setup.exe</strong>.</li>
@@ -264,8 +272,8 @@
     <div class="wrap">
       <div class="section-head">
         <span class="eyebrow">Platforms</span>
-        <h2>Coming soon to more screens</h2>
-        <p>The same features, on your TV and your phone.</p>
+        <h2>On Windows and Android now, on your TV soon</h2>
+        <p>The same features on every screen.</p>
       </div>
       <div class="platforms">
         <div class="card platform available">
@@ -274,17 +282,17 @@
           <h3>Windows</h3>
           <p>Windows 10 and 11.</p>
         </div>
+        <div class="card platform available">
+          <span class="badge badge-ok">Available</span>
+          <svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
+          <h3>Android</h3>
+          <p>Phones and tablets, on <a href="https://play.google.com/store/apps/details?id=com.rupnar.iptv" rel="noopener">Google Play</a>.</p>
+        </div>
         <div class="card platform">
           <span class="badge badge-soon">Coming soon</span>
           <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="13" rx="1.5"/><path d="M7 21h10"/></svg>
           <h3>Samsung TV</h3>
           <p>Samsung Smart TV (Tizen), with your remote control.</p>
-        </div>
-        <div class="card platform">
-          <span class="badge badge-soon">Coming soon</span>
-          <svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
-          <h3>Android</h3>
-          <p>Android phones and tablets.</p>
         </div>
         <div class="card platform">
           <span class="badge badge-soon">Coming soon</span>
@@ -350,7 +358,7 @@
         </details>
         <details>
           <summary>Where are my passwords stored?</summary>
-          <p>Only on your PC, encrypted by Windows. They are never sent anywhere except the IPTV server you specify. More details in the <a href="privacy.html">privacy policy</a>.</p>
+          <p>Only on your device, encrypted: on Windows, with the operating system's own protection; on Android, with Android Keystore. They are never sent anywhere except the IPTV server you specify. More details in the <a href="privacy.html">privacy policy</a>.</p>
         </details>
         <details>
           <summary>Why does Windows show a warning when installing?</summary>
@@ -358,7 +366,11 @@
         </details>
         <details>
           <summary>How does it update?</summary>
-          <p>On its own. When it opens, it checks for a new version and installs it automatically.</p>
+          <p>On its own. On Windows, it checks for a new version when it opens and installs it automatically; on Android, it updates through Google Play.</p>
+        </details>
+        <details>
+          <summary>Is there a version for TVs?</summary>
+          <p>Samsung TV and Android TV / Google TV versions are on the way. The Google Play version is for phones and tablets.</p>
         </details>
       </div>
     </div>
@@ -370,10 +382,12 @@
     <div>
       <a class="brand" href="#top"><img src="../assets/img/icon-64.webp" alt="" width="34" height="34"><span class="rup">RUPNAR</span><span class="tag">IPTV</span></a>
       <p>© 2026 Rupnar IPTV · Player with no content included.</p>
+      <p class="tm">Google Play and the Google Play logo are trademarks of Google LLC.</p>
     </div>
     <nav class="footer-links" aria-label="Footer">
       <a href="#legal">Legal notice</a>
       <a href="privacy.html">Privacy</a>
+      <a href="https://play.google.com/store/apps/details?id=com.rupnar.iptv" rel="noopener">Google Play</a>
       <a href="https://github.com/rupnardev/rupnariptv-releases/releases" rel="noopener">Releases</a>
       <a href="https://buymeacoffee.com/rupnardev" rel="noopener">Buy Me a Coffee</a>
       <a href="../" hreflang="es" lang="es" data-setlang="es">Español</a>
