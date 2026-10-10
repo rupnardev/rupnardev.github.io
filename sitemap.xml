@@ -11,13 +11,26 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rupnardev.github.io/en/"/>
   </url>
   <url>
-    <loc>https://rupnardev.github.io/privacidad.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://rupnardev.github.io/privacidad.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://rupnardev.github.io/en/privacy.html"/>
+    <loc>https://rupnardev.github.io/rupnar-iptv/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rupnardev.github.io/rupnar-iptv/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rupnardev.github.io/rupnar-iptv/en/"/>
   </url>
   <url>
-    <loc>https://rupnardev.github.io/en/privacy.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://rupnardev.github.io/privacidad.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://rupnardev.github.io/en/privacy.html"/>
+    <loc>https://rupnardev.github.io/rupnar-iptv/en/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rupnardev.github.io/rupnar-iptv/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rupnardev.github.io/rupnar-iptv/en/"/>
   </url>
+  <url>
+    <loc>https://rupnardev.github.io/rupnar-iptv/privacidad.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rupnardev.github.io/rupnar-iptv/privacidad.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rupnardev.github.io/rupnar-iptv/en/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://rupnardev.github.io/rupnar-iptv/en/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rupnardev.github.io/rupnar-iptv/privacidad.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rupnardev.github.io/rupnar-iptv/en/privacy.html"/>
+  </url>
+  <url><loc>https://rupnardev.github.io/mi-botiquin/</loc></url>
+  <url><loc>https://rupnardev.github.io/mi-botiquin/privacidad.html</loc></url>
+  <url><loc>https://rupnardev.github.io/mi-botiquin/terminos.html</loc></url>
 </urlset>

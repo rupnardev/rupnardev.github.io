@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi botiquín — Tus medicamentos de casa, ordenados</title>
+  <meta name="description" content="Mi botiquín es una app gratuita para Android: busca medicamentos con la información oficial de la AEMPS, guarda los que tienes en casa, controla caducidades y crea recordatorios con la pauta de tu médico. Sin anuncios, sin cuentas y con tus datos solo en tu móvil.">
+  <meta name="theme-color" content="#F5F7F6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0F1513" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://rupnardev.github.io/mi-botiquin/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mi botiquín">
+  <meta property="og:title" content="Mi botiquín — Tus medicamentos de casa, ordenados">
+  <meta property="og:description" content="Información oficial de la AEMPS, caducidades y recordatorios con la pauta de tu médico. Gratis, sin anuncios y con tus datos solo en tu móvil.">
+  <meta property="og:url" content="https://rupnardev.github.io/mi-botiquin/">
+  <meta property="og:image" content="https://rupnardev.github.io/mi-botiquin/assets/img/capturas/01-botiquin.webp">
+  <meta property="og:locale" content="es_ES">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="assets/img/icono.svg">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/atkinson_bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="assets/css/botiquin.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Mi botiquín",
+    "operatingSystem": "Android 8.0+",
+    "applicationCategory": "HealthApplication",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+    "url": "https://rupnardev.github.io/mi-botiquin/",
+    "inLanguage": "es",
+    "author": { "@type": "Person", "name": "RupnarDev", "url": "https://rupnardev.github.io/" }
+  }
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/img/icono.svg" alt="" width="40" height="40">Mi botiquín</a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#que-hace">Qué hace</a>
+      <a href="#capturas">Capturas</a>
+      <a href="#privacidad">Privacidad</a>
+      <a href="#preguntas">Preguntas</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <!-- Presentación -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Tus medicamentos de casa, ordenados y a mano</h1>
+        <p class="lead">Busca cualquier medicamento con la información oficial de la AEMPS, guarda los que tienes en casa, controla las caducidades y crea recordatorios con la pauta que te dio tu médico.</p>
+        <div class="cta">
+          <span class="soon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            Próximamente en Google Play
+          </span>
+          <a class="btn btn-outline" href="#que-hace">Ver qué hace</a>
+        </div>
+        <p class="meta">Gratis · Sin anuncios · Sin registro · Tus datos solo en tu móvil · Android</p>
+      </div>
+      <div class="hero-phones">
+        <div class="phone"><img src="assets/img/capturas/01-botiquin-sm.webp" width="540" height="1110" alt="Pantalla Mi botiquín: avisos de un medicamento caducado y otro que caduca pronto, y la próxima toma con los botones Tomado y Posponer" fetchpriority="high"></div>
+        <div class="phone"><img src="assets/img/capturas/06-recordatorios-sm.webp" width="540" height="1110" alt="Pantalla Recordatorios con las tomas de hoy: una marcada como tomada y otra pendiente ahora"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Funciones -->
+  <section id="que-hace">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="label">Qué hace</span>
+        <h2>Todo tu botiquín en el móvil</h2>
+        <p>Pensada para que cualquiera la entienda a la primera, también las personas mayores y quienes las cuidan.</p>
+      </div>
+      <div class="features">
+        <article class="card feature">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></div>
+          <h3>Busca con datos oficiales</h3>
+          <p>Por nombre, principio activo o laboratorio, por el código nacional de la caja o escaneando su código. La información viene del CIMA de la AEMPS.</p>
+        </article>
+        <article class="card feature">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M9 11h7M9 15h7M9 7h3"/></svg></div>
+          <h3>Prospecto por secciones</h3>
+          <p>Para qué se utiliza, cómo tomarlo, efectos adversos o conservación, con botones grandes. Lo que guardas se puede consultar sin conexión.</p>
+        </article>
+        <article class="card feature">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+          <h3>Caducidades a la vista</h3>
+          <p>Cada caja con su fecha: Caducado, Caduca pronto o Vigente, siempre con texto. Y te recuerda llevar lo caducado al punto SIGRE.</p>
+        </article>
+        <article class="card feature">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h10M4 17h6"/><path d="M17 15v6M14 18h6"/></svg></div>
+          <h3>Unidades que quedan</h3>
+          <p>Si quieres, lleva la cuenta de cada caja: cada toma marcada descuenta. Puedes pedir un aviso cuando queden pocas.</p>
+        </article>
+        <article class="card feature">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M5 3 2 6M19 3l3 3"/></svg></div>
+          <h3>Recordatorios por pauta</h3>
+          <p>Horas, días y duración en pocos pasos, con medias, tercios o cuartos. El aviso trae los botones Tomado, +10 min y Saltar.</p>
+        </article>
+        <article class="card feature">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3v3M16 3v3"/><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M12 11v6M9 14h6"/></svg></div>
+          <h3>Citas médicas</h3>
+          <p>Apunta tus citas con hora y lugar, y elige uno o varios avisos: el día antes, una hora antes…</p>
+        </article>
+        <article class="card feature">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M21 20c0-2.6-1.6-4.8-4-5.6"/></svg></div>
+          <h3>Para toda la familia</h3>
+          <p>Añade a las personas de casa. Cada medicamento, recordatorio y cita es de alguien, y puedes ver solo lo de cada uno.</p>
+        </article>
+        <article class="card feature">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg></div>
+          <h3>Copia de seguridad</h3>
+          <p>Guarda tus datos en un archivo, donde tú elijas, y recupéralos al cambiar de móvil.</p>
+        </article>
+        <article class="card feature">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20 10 4h1l6 16M6.5 14h8"/><path d="M18 9v6M15 12h6"/></svg></div>
+          <h3>Fácil de leer</h3>
+          <p>Letra Atkinson Hyperlegible, botones grandes, buen contraste y modo oscuro. Respeta el tamaño de letra de tu móvil.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recorrido -->
+  <section aria-label="Recorrido por la app">
+    <div class="wrap tour">
+      <div class="step">
+        <div class="shots">
+          <div class="phone"><img src="assets/img/capturas/02-buscar-sm.webp" width="540" height="1110" loading="lazy" alt="Buscador con resultados para ibuprofeno 600 que muestran nombre, dosis, forma y laboratorio"></div>
+          <div class="phone"><img src="assets/img/capturas/03-ficha-sm.webp" width="540" height="1110" loading="lazy" alt="Ficha de Ibuprofeno Cinfa 600 mg con las fotos del envase y del comprimido e indicadores de CIMA"></div>
+        </div>
+        <div>
+          <span class="label">Buscar</span>
+          <h3>Encuentra el medicamento exacto</h3>
+          <ul>
+            <li>Cada resultado muestra nombre, dosis, forma y laboratorio, para no confundir 400 mg con 600 mg.</li>
+            <li>Escanea el código de la caja: con el Data Matrix se rellenan también la caducidad y el lote.</li>
+            <li>Fotos del envase cuando el laboratorio las ha publicado en CIMA.</li>
+            <li>Avisos de CIMA: si necesita receta, si afecta a la conducción, problemas de suministro y notas de seguridad.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="step">
+        <div class="shots">
+          <div class="phone"><img src="assets/img/capturas/05-medicamentos-sm.webp" width="540" height="1110" loading="lazy" alt="Lista de medicamentos guardados con la persona, las unidades que quedan y el estado de caducidad"></div>
+          <div class="phone"><img src="assets/img/capturas/04-prospecto-sm.webp" width="540" height="1110" loading="lazy" alt="Ficha de un medicamento guardado con su caducidad, unidades que quedan y el prospecto por secciones"></div>
+        </div>
+        <div>
+          <span class="label">Mi botiquín</span>
+          <h3>Sabes qué tienes y hasta cuándo vale</h3>
+          <ul>
+            <li>Cada caja por separado, con su caducidad, su lote y lo que queda.</li>
+            <li>Al abrir la app ves de un vistazo lo caducado y lo que caduca pronto.</li>
+            <li>Haz una foto de tu caja para reconocerla rápido.</li>
+          </ul>
+          <ul class="states" aria-label="Estados de caducidad">
+            <li class="st-error">Caducado</li>
+            <li class="st-warn">Caduca pronto</li>
+            <li class="st-neutral">Vigente</li>
+          </ul>
+        </div>
+      </div>
+      <div class="step">
+        <div class="shots">
+          <div class="phone"><img src="assets/img/capturas/07-nuevo-recordatorio-sm.webp" width="540" height="1110" loading="lazy" alt="Nuevo recordatorio: duración de 14 días, una cápsula por toma y resumen de la pauta en una frase"></div>
+          <div class="phone"><img src="assets/img/capturas/09-avisos-cita-sm.webp" width="540" height="1110" loading="lazy" alt="Nueva cita con dos avisos elegidos: un día antes y una hora antes"></div>
+        </div>
+        <div>
+          <span class="label">Recordatorios</span>
+          <h3>La pauta de tu médico, en cuatro preguntas</h3>
+          <ul>
+            <li>¿A qué hora? ¿Qué días? ¿Durante cuánto tiempo? ¿Cuánto en cada toma?</li>
+            <li>Antes de guardar, un resumen en una frase para comprobarlo.</li>
+            <li>Si no respondes, el aviso se repite y se queda en las notificaciones hasta que lo quites.</li>
+            <li>Si se olvida una toma, solo se apunta. La app nunca te dice que la tomes después ni que tomes el doble.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section id="capturas">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="label">Capturas</span>
+        <h2>Así es Mi botiquín</h2>
+        <p>Pulsa una captura para verla en grande.</p>
+      </div>
+      <div class="gallery">
+        <figure><div class="phone"><button type="button" data-full="assets/img/capturas/01-botiquin.webp"><img src="assets/img/capturas/01-botiquin-sm.webp" width="540" height="1110" loading="lazy" alt="Inicio con avisos de caducidad y la próxima toma"></button></div><figcaption>Inicio</figcaption></figure>
+        <figure><div class="phone"><button type="button" data-full="assets/img/capturas/05-medicamentos.webp"><img src="assets/img/capturas/05-medicamentos-sm.webp" width="540" height="1110" loading="lazy" alt="Lista de medicamentos guardados"></button></div><figcaption>Tus medicamentos</figcaption></figure>
+        <figure><div class="phone"><button type="button" data-full="assets/img/capturas/02-buscar.webp"><img src="assets/img/capturas/02-buscar-sm.webp" width="540" height="1110" loading="lazy" alt="Buscador de medicamentos"></button></div><figcaption>Buscar</figcaption></figure>
+        <figure><div class="phone"><button type="button" data-full="assets/img/capturas/03-ficha.webp"><img src="assets/img/capturas/03-ficha-sm.webp" width="540" height="1110" loading="lazy" alt="Ficha del medicamento"></button></div><figcaption>Ficha del medicamento</figcaption></figure>
+        <figure><div class="phone"><button type="button" data-full="assets/img/capturas/04-prospecto.webp"><img src="assets/img/capturas/04-prospecto-sm.webp" width="540" height="1110" loading="lazy" alt="Caducidad, unidades y prospecto por secciones"></button></div><figcaption>Prospecto por secciones</figcaption></figure>
+        <figure><div class="phone"><button type="button" data-full="assets/img/capturas/06-recordatorios.webp"><img src="assets/img/capturas/06-recordatorios-sm.webp" width="540" height="1110" loading="lazy" alt="Tomas de hoy"></button></div><figcaption>Tomas de hoy</figcaption></figure>
+        <figure><div class="phone"><button type="button" data-full="assets/img/capturas/07-nuevo-recordatorio.webp"><img src="assets/img/capturas/07-nuevo-recordatorio-sm.webp" width="540" height="1110" loading="lazy" alt="Nuevo recordatorio con resumen de la pauta"></button></div><figcaption>Nuevo recordatorio</figcaption></figure>
+        <figure><div class="phone"><button type="button" data-full="assets/img/capturas/08-cita.webp"><img src="assets/img/capturas/08-cita-sm.webp" width="540" height="1110" loading="lazy" alt="Nueva cita médica para una persona de la familia"></button></div><figcaption>Citas médicas</figcaption></figure>
+        <figure><div class="phone"><button type="button" data-full="assets/img/capturas/09-avisos-cita.webp"><img src="assets/img/capturas/09-avisos-cita-sm.webp" width="540" height="1110" loading="lazy" alt="Avisos de la cita"></button></div><figcaption>Avisos de la cita</figcaption></figure>
+        <figure><div class="phone"><button type="button" data-full="assets/img/capturas/10-modo-oscuro.webp"><img src="assets/img/capturas/10-modo-oscuro-sm.webp" width="540" height="1110" loading="lazy" alt="Inicio en modo oscuro"></button></div><figcaption>Modo oscuro</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacidad y aviso -->
+  <section id="privacidad">
+    <div class="wrap two">
+      <div class="notice notice-soft">
+        <h2>Tus datos no salen de tu móvil</h2>
+        <p>No hay cuentas ni servidores: tus medicamentos, recordatorios, citas y fotos se guardan solo en tu móvil. Sin anuncios y sin analítica.</p>
+        <p>Para buscar, la app consulta directamente el CIMA de la AEMPS, sin enviar nada de tu botiquín.</p>
+        <p><a href="privacidad.html">Lee la política de privacidad</a></p>
+      </div>
+      <div class="notice notice-warn">
+        <h2>No es consejo médico</h2>
+        <p>Mi botiquín no recomienda, receta ni sugiere ningún medicamento, dosis ni tratamiento. No es un producto sanitario y no diagnostica, trata, cura ni previene ninguna enfermedad.</p>
+        <p>Ante cualquier duda, consulta siempre a tu médico o farmacéutico. El prospecto de tu medicamento y las indicaciones de tu médico prevalecen sobre lo que veas en la app.</p>
+        <p><a href="terminos.html">Lee los términos de uso</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preguntas -->
+  <section id="preguntas">
+    <div class="narrow">
+      <div class="section-head">
+        <span class="label">Preguntas frecuentes</span>
+        <h2>Dudas habituales</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>¿Es gratis?</summary>
+          <p>Sí. Sin anuncios, sin suscripciones y sin funciones de pago.</p>
+        </details>
+        <details>
+          <summary>¿Necesito crear una cuenta?</summary>
+          <p>No. La app no tiene cuentas ni registro: la abres y empiezas a usarla.</p>
+        </details>
+        <details>
+          <summary>¿La app me dice qué medicamento tomar?</summary>
+          <p>No, nunca. Solo muestra la información oficial de la AEMPS y lo que tú apuntas. Las pautas de los recordatorios las introduces tú, según lo que te haya indicado tu médico.</p>
+        </details>
+        <details>
+          <summary>¿De dónde sale la información de los medicamentos?</summary>
+          <p>Del Centro de Información de Medicamentos (CIMA) de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). Mi botiquín no está vinculada ni respaldada por la AEMPS.</p>
+        </details>
+        <details>
+          <summary>¿Funciona sin internet?</summary>
+          <p>Para buscar medicamentos nuevos necesitas conexión. Lo que ya tienes guardado, incluido el prospecto, se puede consultar sin conexión, y los recordatorios funcionan igual.</p>
+        </details>
+        <details>
+          <summary>¿Qué códigos puede leer la cámara?</summary>
+          <p>El código de barras y el código Data Matrix de la caja. No identifica pastillas sueltas ni blísters, porque no sería fiable. Siempre te pide confirmar el medicamento antes de guardarlo.</p>
+        </details>
+        <details>
+          <summary>¿Qué pasa si cambio de móvil?</summary>
+          <p>Desde Ajustes puedes guardar una copia de seguridad en un archivo (por ejemplo, en tu Google Drive) y recuperarla en el móvil nuevo.</p>
+        </details>
+        <details>
+          <summary>¿Los recordatorios son fiables?</summary>
+          <p>Usan las alarmas del propio móvil, pero dependen de la batería, del ahorro de energía y de los permisos. En Ajustes hay una opción para comprobar que los avisos funcionan. No deben ser tu única forma de recordar la medicación.</p>
+        </details>
+        <details>
+          <summary>¿Hay versión para iPhone?</summary>
+          <p>De momento solo para Android (8.0 o superior).</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p><strong>Mi botiquín</strong> · © 2026 <a href="../">RupnarDev</a></p>
+      <p>Fuente de los datos: CIMA – AEMPS. Mi botiquín no está vinculada ni respaldada por la AEMPS.</p>
+      <p>Las capturas muestran información real de CIMA y datos de ejemplo inventados.</p>
+    </div>
+    <nav aria-label="Pie de página">
+      <a href="privacidad.html">Privacidad</a>
+      <a href="terminos.html">Términos de uso</a>
+      <a href="mailto:rupnardev@gmail.com">Contacto</a>
+      <a href="../">Más apps de RupnarDev</a>
+    </nav>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Captura ampliada">
+  <button class="lb-btn lb-close" type="button" aria-label="Cerrar">×</button>
+  <button class="lb-btn lb-prev" type="button" aria-label="Anterior">‹</button>
+  <img alt="">
+  <p></p>
+  <button class="lb-btn lb-next" type="button" aria-label="Siguiente">›</button>
+</div>
+
+<script src="assets/js/botiquin.js" defer></script>
+</body>
+</html>

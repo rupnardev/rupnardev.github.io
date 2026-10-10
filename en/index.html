@@ -3,406 +3,111 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rupnar IPTV — IPTV player for Windows and Android</title>
-  <meta name="description" content="Rupnar IPTV is a free IPTV player for Windows and Android. Use your own Xtream server or M3U playlist: live TV with programme guide, movies, series, continue watching, favourites and more. No content included.">
-  <meta name="theme-color" content="#070b17">
+  <title>RupnarDev — Simple apps that respect your privacy</title>
+  <meta name="description" content="RupnarDev makes free apps with no ads and no accounts: Rupnar IPTV, an IPTV player for Windows and Android, and Mi botiquín, to organise the medicines you keep at home (Spain).">
+  <meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1118" media="(prefers-color-scheme: dark)">
   <link rel="canonical" href="https://rupnardev.github.io/en/">
   <link rel="alternate" hreflang="es" href="https://rupnardev.github.io/">
   <link rel="alternate" hreflang="en" href="https://rupnardev.github.io/en/">
   <link rel="alternate" hreflang="x-default" href="https://rupnardev.github.io/">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Rupnar IPTV">
-  <meta property="og:title" content="Rupnar IPTV — IPTV player for Windows and Android">
-  <meta property="og:description" content="Free IPTV player. Use your own Xtream server or M3U playlist. No content included.">
+  <meta property="og:site_name" content="RupnarDev">
+  <meta property="og:title" content="RupnarDev — Simple apps that respect your privacy">
+  <meta property="og:description" content="Rupnar IPTV and Mi botiquín: free apps with no ads and no accounts.">
   <meta property="og:url" content="https://rupnardev.github.io/en/">
-  <meta property="og:image" content="https://rupnardev.github.io/assets/img/og-en.jpg">
   <meta property="og:locale" content="en_GB">
-  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="../favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" href="../assets/img/icon-256.png">
-  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
-  <link rel="stylesheet" href="../assets/css/site.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Rupnar IPTV",
-    "operatingSystem": "Windows 10, Windows 11, Android 7.0+",
-    "applicationCategory": "MultimediaApplication",
-    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
-    "downloadUrl": "https://github.com/rupnardev/rupnariptv-releases/releases/latest/download/RupnarIPTV-Setup.exe",
-    "url": "https://rupnardev.github.io/en/",
-    "inLanguage": ["es", "en"]
-  }
-  </script>
+  <link rel="icon" type="image/svg+xml" href="../assets/img/rupnardev.svg">
+  <link rel="apple-touch-icon" href="../assets/img/rupnardev-180.png">
+  <link rel="stylesheet" href="../assets/css/portfolio.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<header class="site-header">
+<header class="top">
   <div class="wrap">
-    <a class="brand" href="#top" aria-label="Rupnar IPTV, home">
-      <img src="../assets/img/icon-64.webp" alt="" width="34" height="34">
-      <span class="rup">RUPNAR</span><span class="tag">IPTV</span>
-    </a>
-    <button class="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="Menu">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-    </button>
-    <nav class="nav" id="nav" aria-label="Main">
-      <a href="#features">Features</a>
-      <a href="#screenshots">Screenshots</a>
-      <a href="#download">Download</a>
-      <a href="#platforms">Platforms</a>
-      <a href="#support">Support</a>
-      <a href="#legal">Legal notice</a>
-      <div class="lang" aria-label="Language">
-        <a href="../" hreflang="es" lang="es" data-setlang="es">ES</a><span aria-current="true">EN</span>
-      </div>
-    </nav>
+    <a class="logo" href="./"><img src="../assets/img/rupnardev.svg" alt="" width="36" height="36">RupnarDev</a>
+    <div class="lang" aria-label="Language">
+      <a href="../" hreflang="es" lang="es" data-setlang="es">ES</a><span aria-current="true">EN</span>
+    </div>
   </div>
 </header>
 
 <main id="main">
-  <!-- Hero -->
-  <section class="hero" id="top">
+  <section class="intro">
     <div class="wrap">
-      <img class="hero-icon" src="../assets/img/icon-256.png" alt="Rupnar IPTV icon" width="96" height="96">
-      <h1>Your IPTV, <span class="grad">well organised</span> and easy to watch</h1>
-      <p class="lead">Rupnar IPTV is a free player for Windows and Android. Add your Xtream server or M3U playlist and enjoy live TV with a programme guide, movies and series, with everything in its place.</p>
-      <div class="hero-cta">
-        <a class="btn btn-primary btn-lg" href="#download">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.5 10.5 4.4v7.1H3zM11.5 4.3 21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zM11.5 12.5H21V21l-9.5-1.3z"/></svg>
-          Download for Windows
-        </a>
-        <a class="gp-badge" href="https://play.google.com/store/apps/details?id=com.rupnar.iptv" rel="noopener"><img src="../assets/img/gp-en.png" alt="Get it on Google Play" width="150" height="58"></a>
-      </div>
-      <p class="hero-meta">Free · No ads · No sign-up · Windows and Android · English and Spanish</p>
-      <div class="hero-shot frame">
-        <img src="../assets/img/shots/en/02-menu.webp" srcset="../assets/img/shots/en/02-menu-sm.webp 800w, ../assets/img/shots/en/02-menu.webp 1920w" sizes="(max-width: 1100px) 100vw, 1040px" width="1920" height="1080" alt="Rupnar IPTV main menu with Live TV, Series, Movies and the Continue watching row" fetchpriority="high">
-      </div>
+      <h1>Simple apps that respect your privacy</h1>
+      <p>I'm RupnarDev, an independent developer. I make free apps with no ads and no accounts, which keep your data on your device instead of on a server.</p>
     </div>
   </section>
 
-  <!-- Features -->
-  <section id="features">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Features</span>
-        <h2>Everything you expect from a good player</h2>
-        <p>On PC, with a mouse or the keyboard alone; on phones and tablets, with a touch interface.</p>
-      </div>
-      <div class="features">
-        <article class="card feature">
-          <div class="ico"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M21 20c0-2.6-1.6-4.8-4-5.6"/></svg></div>
-          <h3>Multiple accounts</h3>
-          <p>Xtream server (username and password) or M3U playlist from a URL or file. Save several and switch between them instantly.</p>
-        </article>
-        <article class="card feature">
-          <div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M8 3l4 3 4-3"/></svg></div>
-          <h3>Live TV with preview</h3>
-          <p>Watch a channel in a small window next to its programme guide, then go full size without interruption. Reconnects automatically if the signal drops.</p>
-        </article>
-        <article class="card feature">
-          <div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M10 9l5 3-5 3z"/></svg></div>
-          <h3>Movies and series</h3>
-          <p>Posters, full details, season picker and automatic playback of the next episode.</p>
-        </article>
-        <article class="card feature">
-          <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v4h4"/><path d="M12 8v4l3 2"/></svg></div>
-          <h3>Continue watching</h3>
-          <p>Pick up movies, episodes and channels right where you left off, straight from the menu.</p>
-        </article>
-        <article class="card feature">
-          <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.8-4.5 4.2 1.1 6-5.4-2.9-5.4 2.9 1.1-6L3.2 9.4l6.1-.8z"/></svg></div>
-          <h3>Favourites, search and filter</h3>
-          <p>Mark favourites, search within each category and hide the categories you don't care about.</p>
-        </article>
-        <article class="card feature">
-          <div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 15h4M13 15h4M7 11h10"/></svg></div>
-          <h3>Audio and subtitles</h3>
-          <p>Choose the audio and subtitle language; the app remembers your preference for the next videos.</p>
-        </article>
-        <article class="card feature">
-          <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 14h6v6h-6z"/><path d="M14 4h6v6M4 14v6h6"/></svg></div>
-          <h3>Full-featured player</h3>
-          <p>Playback speed, picture-in-picture, full screen, "Go to live" and, on PC, keyboard shortcuts.</p>
-        </article>
-        <article class="card feature">
-          <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 4h16v12H4z"/><path d="M8 20h8M12 16v4"/><path d="M8 8l3 2-3 2M13 12h3"/></svg></div>
-          <h3>Many formats</h3>
-          <p>Also plays video and audio that browsers can't handle (AVI, MPEG-2, Dolby…), automatically.</p>
-        </article>
-        <article class="card feature">
-          <div class="ico"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div>
-          <h3>Private and always up to date</h3>
-          <p>Your login details are stored encrypted on your device. No accounts, no tracking. Updates itself.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Tour -->
-  <section id="tour" aria-label="App tour">
-    <div class="wrap tour">
-      <div class="tour-item">
-        <div class="frame"><button type="button" data-full="../assets/img/shots/en/03-canales-vista-previa.webp" data-caption="Live TV with preview and programme guide"><img src="../assets/img/shots/en/03-canales-vista-previa-sm.webp" srcset="../assets/img/shots/en/03-canales-vista-previa-sm.webp 800w, ../assets/img/shots/en/03-canales-vista-previa.webp 1920w" sizes="(max-width: 900px) 100vw, 640px" width="1920" height="1080" loading="lazy" alt="Live TV screen: categories, channel list and preview with programme guide"></button></div>
+  <section class="wrap apps" aria-label="Apps">
+    <article class="app app-iptv">
+      <header>
+        <img src="../assets/img/icon-256.png" alt="" width="64" height="64">
         <div>
-          <span class="eyebrow">Live TV</span>
-          <h3>Preview and programme guide at a glance</h3>
-          <ul>
-            <li>One click: the channel plays small, with its upcoming programmes.</li>
-            <li>Another click: full size, with no cuts or reconnections.</li>
-            <li>Fallen behind? "Go to live" brings you back to now.</li>
-            <li>Respects your account: never opens two connections at once.</li>
-          </ul>
+          <h2>Rupnar IPTV</h2>
+          <p class="kind">IPTV player</p>
         </div>
+      </header>
+      <p>Use your own Xtream server or M3U playlist: live TV with programme guide, movies, series and "Continue watching". No content included.</p>
+      <ul class="chips" aria-label="Platforms">
+        <li>Windows</li><li>Android</li><li>English and Spanish</li>
+      </ul>
+      <div class="actions">
+        <a class="btn btn-main" href="../rupnar-iptv/en/">See Rupnar IPTV</a>
+        <a class="btn btn-alt" href="https://play.google.com/store/apps/details?id=com.rupnar.iptv" rel="noopener">Google Play</a>
       </div>
-      <div class="tour-item">
-        <div class="frame"><button type="button" data-full="../assets/img/shots/en/11-serie-temporadas.webp" data-caption="Series with seasons and episodes"><img src="../assets/img/shots/en/11-serie-temporadas-sm.webp" srcset="../assets/img/shots/en/11-serie-temporadas-sm.webp 800w, ../assets/img/shots/en/11-serie-temporadas.webp 1920w" sizes="(max-width: 900px) 100vw, 640px" width="1920" height="1080" loading="lazy" alt="Series details with season picker and episode list"></button></div>
+    </article>
+
+    <article class="app app-botiquin" lang="es">
+      <header>
+        <img src="../mi-botiquin/assets/img/icono.svg" alt="" width="64" height="64">
         <div>
-          <span class="eyebrow">Movies and series</span>
-          <h3>Everything in order, nothing to hunt for</h3>
-          <ul>
-            <li>Details with plot, cast, year, running time and rating.</li>
-            <li>Season picker, with watched episodes marked.</li>
-            <li>When an episode ends, the next one starts.</li>
-            <li>Your progress is saved automatically, for each account.</li>
-          </ul>
+          <h2>Mi botiquín</h2>
+          <p class="kind" lang="en">Home medicine cabinet and reminders</p>
         </div>
+      </header>
+      <p lang="en">For Spain: look up medicines with official information from the Spanish Medicines Agency (AEMPS), keep track of the ones you have at home and their expiry dates, and set reminders with the regimen your doctor gave you. The app is in Spanish.</p>
+      <ul class="chips" aria-label="Platforms" lang="en">
+        <li>Android</li><li>Spanish only</li>
+      </ul>
+      <div class="actions" lang="en">
+        <a class="btn btn-main" href="../mi-botiquin/" hreflang="es">See Mi botiquín (Spanish)</a>
+        <span class="soon">Coming soon to Google Play</span>
       </div>
-      <div class="tour-item">
-        <div class="frame"><button type="button" data-full="../assets/img/shots/en/10-audio-subtitulos.webp" data-caption="Choose audio language and subtitles"><img src="../assets/img/shots/en/10-audio-subtitulos-sm.webp" srcset="../assets/img/shots/en/10-audio-subtitulos-sm.webp 800w, ../assets/img/shots/en/10-audio-subtitulos.webp 1920w" sizes="(max-width: 900px) 100vw, 640px" width="1920" height="1080" loading="lazy" alt="Player with the audio and subtitles menu open"></button></div>
-        <div>
-          <span class="eyebrow">Player</span>
-          <h3>Full controls, on PC and on mobile</h3>
-          <ul>
-            <li>Audio and subtitles, speed from 0.5× to 2×.</li>
-            <li>Picture-in-picture and full screen.</li>
-            <li>10-second skips, previous and next episode.</li>
-            <li>On mobile: tap to show the controls and double-tap either side to skip 10 s.</li>
-            <li>On PC, shortcuts: Space, arrows, F, M, P, A, C, F11…</li>
-          </ul>
-        </div>
-      </div>
-      <div class="tour-item">
-        <div class="frame"><button type="button" data-full="../assets/img/shots/en/06-filtro-categorias.webp" data-caption="Choose which categories are shown"><img src="../assets/img/shots/en/06-filtro-categorias-sm.webp" srcset="../assets/img/shots/en/06-filtro-categorias-sm.webp 800w, ../assets/img/shots/en/06-filtro-categorias.webp 1920w" sizes="(max-width: 900px) 100vw, 640px" width="1920" height="1080" loading="lazy" alt="Window to choose which categories are shown"></button></div>
-        <div>
-          <span class="eyebrow">Your way</span>
-          <h3>Keep only what interests you</h3>
-          <ul>
-            <li>Hide categories with one click; new ones appear on their own.</li>
-            <li>Starred favourites, always at hand.</li>
-            <li>Search that ignores accents, capitals and word order.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    </article>
   </section>
 
-  <!-- Gallery -->
-  <section id="screenshots">
+  <section class="ideas">
     <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Screenshots</span>
-        <h2>This is Rupnar IPTV</h2>
-        <p>Screenshots of the Windows version. Tap an image to see it full size.</p>
-      </div>
-      <div class="gallery">
-        <figure><button type="button" data-full="../assets/img/shots/en/01-cuentas.webp"><img src="../assets/img/shots/en/01-cuentas-sm.webp" width="800" height="450" loading="lazy" alt="Multiple saved accounts (Xtream and M3U)"></button><figcaption>Multiple saved accounts</figcaption></figure>
-        <figure><button type="button" data-full="../assets/img/shots/en/02-menu.webp"><img src="../assets/img/shots/en/02-menu-sm.webp" width="800" height="450" loading="lazy" alt="Main menu with Continue watching"></button><figcaption>Main menu with "Continue watching"</figcaption></figure>
-        <figure><button type="button" data-full="../assets/img/shots/en/03-canales-vista-previa.webp"><img src="../assets/img/shots/en/03-canales-vista-previa-sm.webp" width="800" height="450" loading="lazy" alt="Live TV with preview and programme guide"></button><figcaption>Live TV with preview</figcaption></figure>
-        <figure><button type="button" data-full="../assets/img/shots/en/04-directo.webp"><img src="../assets/img/shots/en/04-directo-sm.webp" width="800" height="450" loading="lazy" alt="Live channel in full screen"></button><figcaption>Live channel in full screen</figcaption></figure>
-        <figure><button type="button" data-full="../assets/img/shots/en/05-peliculas.webp"><img src="../assets/img/shots/en/05-peliculas-sm.webp" width="800" height="450" loading="lazy" alt="Movie grid with favourites and progress"></button><figcaption>Movies with favourites and progress</figcaption></figure>
-        <figure><button type="button" data-full="../assets/img/shots/en/06-filtro-categorias.webp"><img src="../assets/img/shots/en/06-filtro-categorias-sm.webp" width="800" height="450" loading="lazy" alt="Choose which categories are shown"></button><figcaption>Category filter</figcaption></figure>
-        <figure><button type="button" data-full="../assets/img/shots/en/07-pelicula-detalle.webp"><img src="../assets/img/shots/en/07-pelicula-detalle-sm.webp" width="800" height="450" loading="lazy" alt="Movie details with the Resume button"></button><figcaption>Movie details</figcaption></figure>
-        <figure><button type="button" data-full="../assets/img/shots/en/08-continuar.webp"><img src="../assets/img/shots/en/08-continuar-sm.webp" width="800" height="450" loading="lazy" alt="Dialog to resume or start from the beginning"></button><figcaption>Pick up where you left off</figcaption></figure>
-        <figure><button type="button" data-full="../assets/img/shots/en/09-reproductor.webp"><img src="../assets/img/shots/en/09-reproductor-sm.webp" width="800" height="450" loading="lazy" alt="Player with all its controls"></button><figcaption>Player</figcaption></figure>
-        <figure><button type="button" data-full="../assets/img/shots/en/10-audio-subtitulos.webp"><img src="../assets/img/shots/en/10-audio-subtitulos-sm.webp" width="800" height="450" loading="lazy" alt="Choose audio language and subtitles"></button><figcaption>Audio and subtitles</figcaption></figure>
-        <figure><button type="button" data-full="../assets/img/shots/en/11-serie-temporadas.webp"><img src="../assets/img/shots/en/11-serie-temporadas-sm.webp" width="800" height="450" loading="lazy" alt="Series with season picker and episodes"></button><figcaption>Seasons and episodes</figcaption></figure>
-        <figure><button type="button" data-full="../assets/img/shots/en/12-mi-cuenta.webp"><img src="../assets/img/shots/en/12-mi-cuenta-sm.webp" width="800" height="450" loading="lazy" alt="Account details: status, expiry and connections"></button><figcaption>Your account details</figcaption></figure>
-        <figure><button type="button" data-full="../assets/img/shots/en/13-informacion.webp"><img src="../assets/img/shots/en/13-informacion-sm.webp" width="800" height="450" loading="lazy" alt="Information window with the legal notice"></button><figcaption>Built-in legal notice</figcaption></figure>
-      </div>
-      <p class="credit">Screenshots show made-up demo content (names, posters and logos with no real brands).<br>Sample video: <em>Big Buck Bunny</em> and <em>Elephants Dream</em> © Blender Foundation, <a href="https://creativecommons.org/licenses/by/3.0/" rel="noopener">CC BY</a>.</p>
-    </div>
-  </section>
-
-  <!-- Download -->
-  <section id="download">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Download</span>
-        <h2>Download it for free</h2>
-        <p>For Windows PCs and for Android phones and tablets. After that, it updates itself.</p>
-      </div>
-      <div class="download">
-        <div class="card download-main">
-          <svg class="win" viewBox="0 0 24 24" fill="#00e5ff" aria-hidden="true"><path d="M3 5.5 10.5 4.4v7.1H3zM11.5 4.3 21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zM11.5 12.5H21V21l-9.5-1.3z"/></svg>
-          <h3>Rupnar IPTV for Windows</h3>
-          <a class="btn btn-primary btn-lg" href="https://github.com/rupnardev/rupnariptv-releases/releases/latest/download/RupnarIPTV-Setup.exe" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
-            <span>Download installer<small>RupnarIPTV-Setup.exe</small></span>
-          </a>
-          <p class="req" id="release-info" data-label="Version">Windows 10 and 11 (64-bit) · Free</p>
-          <p class="alt"><a href="https://github.com/rupnardev/rupnariptv-releases/releases" rel="noopener">See all versions</a></p>
-        </div>
-        <div class="card download-main">
-          <svg class="win" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
-          <h3>Rupnar IPTV for Android</h3>
-          <a class="gp-badge" href="https://play.google.com/store/apps/details?id=com.rupnar.iptv" rel="noopener"><img src="../assets/img/gp-en.png" alt="Get it on Google Play" width="165" height="64"></a>
-          <p class="req">Phones and tablets with Android 7.0 or later · Free</p>
-          <p class="alt">Installs and updates through Google Play.</p>
-        </div>
-        <div class="card notice">
-          <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 20h20z"/><path d="M12 10v4M12 17h.01"/></svg> Windows: SmartScreen warning</h3>
-          <p>The first time, Windows may show <strong>"Windows protected your PC"</strong>. This is normal: the installer doesn't have a paid digital signature yet, so Windows doesn't recognise it yet. To install:</p>
-          <ol class="steps">
-            <li>Open <strong>RupnarIPTV-Setup.exe</strong>.</li>
-            <li>On the blue warning, click <strong>"More info"</strong>.</li>
-            <li>Click <strong>"Run anyway"</strong>.</li>
-            <li>Installation finishes on its own and the app opens.</li>
-          </ol>
-          <p>If your browser says the file "isn't commonly downloaded", choose <span class="kbd">···</span> → <strong>Keep</strong>. Only download it from this website or from the <a href="https://github.com/rupnardev/rupnariptv-releases/releases" rel="noopener">official repository</a>.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Platforms -->
-  <section id="platforms">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Platforms</span>
-        <h2>On Windows and Android now, on your TV soon</h2>
-        <p>The same features on every screen.</p>
-      </div>
-      <div class="platforms">
-        <div class="card platform available">
-          <span class="badge badge-ok">Available</span>
-          <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-          <h3>Windows</h3>
-          <p>Windows 10 and 11.</p>
-        </div>
-        <div class="card platform available">
-          <span class="badge badge-ok">Available</span>
-          <svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
-          <h3>Android</h3>
-          <p>Phones and tablets, on <a href="https://play.google.com/store/apps/details?id=com.rupnar.iptv" rel="noopener">Google Play</a>.</p>
-        </div>
-        <div class="card platform">
-          <span class="badge badge-soon">Coming soon</span>
-          <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="13" rx="1.5"/><path d="M7 21h10"/></svg>
-          <h3>Samsung TV</h3>
-          <p>Samsung Smart TV (Tizen), with your remote control.</p>
-        </div>
-        <div class="card platform">
-          <span class="badge badge-soon">Coming soon</span>
-          <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="13" rx="1.5"/><path d="M9 21l3-5 3 5"/><circle cx="18.5" cy="19.5" r="1"/></svg>
-          <h3>Android TV</h3>
-          <p>TVs and streaming boxes with Android TV / Google TV.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Support -->
-  <section id="support">
-    <div class="wrap">
-      <div class="card support">
-        <span class="eyebrow">Support the project</span>
-        <h2>Enjoying Rupnar IPTV?</h2>
-        <p>The app is and will remain free, with no ads. If you find it useful and want to help bring it to more platforms, you can buy me a coffee. It's entirely voluntary.</p>
-        <a class="btn btn-coffee btn-lg" href="https://buymeacoffee.com/rupnardev" rel="noopener" target="_blank">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"/><path d="M8 2.5v2.5M12 2.5v2.5"/></svg>
-          Buy me a coffee
-        </a>
-        <small>Donations don't unlock any content or extra features: every feature is for everyone.</small>
-      </div>
-    </div>
-  </section>
-
-  <!-- Legal notice -->
-  <section id="legal">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Legal notice</span>
-        <h2>Just a player</h2>
-      </div>
-      <div class="card legal">
-        <p><strong>Rupnar IPTV is only a player.</strong> It does not include, host, sell or distribute any channels, movies, series, playlists or other content, and it is not affiliated with any IPTV provider.</p>
-        <p>Everything loaded in the app (channels, categories, movies, series and images) comes from a third-party IPTV playlist or service whose login details you enter yourself.</p>
-        <p>Rupnar IPTV is not responsible for the content of that playlist, its availability or its legality. Only use playlists and services you are legally entitled to access.</p>
-        <p>To play some formats, the Windows version uses <a href="https://ffmpeg.org" rel="noopener">FFmpeg</a> under the LGPL licence; its licence is included in the installation folder.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="faq">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">FAQ</span>
-        <h2>Common questions</h2>
-      </div>
-      <div class="faq">
-        <details>
-          <summary>Does the app include channels or playlists?</summary>
-          <p>No. Rupnar IPTV is only a player: you need your own IPTV service (Xtream server or M3U playlist) provided by a third party.</p>
-        </details>
-        <details>
-          <summary>What do I need to get started?</summary>
-          <p>Your service's login details: the server URL with your username and password (Xtream), or the address or file of your M3U playlist.</p>
-        </details>
-        <details>
-          <summary>Is it free?</summary>
-          <p>Yes, completely: no ads, no subscriptions and no paid features. Donations are voluntary.</p>
-        </details>
-        <details>
-          <summary>Where are my passwords stored?</summary>
-          <p>Only on your device, encrypted: on Windows, with the operating system's own protection; on Android, with Android Keystore. They are never sent anywhere except the IPTV server you specify. More details in the <a href="privacy.html">privacy policy</a>.</p>
-        </details>
-        <details>
-          <summary>Why does Windows show a warning when installing?</summary>
-          <p>Because the installer isn't digitally signed yet. Click "More info" and then "Run anyway". See the <a href="#download">installation steps</a>.</p>
-        </details>
-        <details>
-          <summary>How does it update?</summary>
-          <p>On its own. On Windows, it checks for a new version when it opens and installs it automatically; on Android, it updates through Google Play.</p>
-        </details>
-        <details>
-          <summary>Is there a version for TVs?</summary>
-          <p>Samsung TV and Android TV / Google TV versions are on the way. The Google Play version is for phones and tablets.</p>
-        </details>
+      <h2>What my apps are like</h2>
+      <div class="grid">
+        <div class="idea"><h3>Free, no ads</h3><p>No subscriptions, no paid features and no advertising.</p></div>
+        <div class="idea"><h3>No accounts</h3><p>You don't need to sign up or give your email to use them.</p></div>
+        <div class="idea"><h3>Your data stays on your device</h3><p>No servers of my own and no analytics: what you save stays on your phone or PC.</p></div>
+        <div class="idea"><h3>Easy to use</h3><p>Clear screens, big buttons and just enough text.</p></div>
       </div>
     </div>
   </section>
 </main>
 
-<footer class="site-footer">
+<footer class="foot">
   <div class="wrap">
-    <div>
-      <a class="brand" href="#top"><img src="../assets/img/icon-64.webp" alt="" width="34" height="34"><span class="rup">RUPNAR</span><span class="tag">IPTV</span></a>
-      <p>© 2026 Rupnar IPTV · Player with no content included.</p>
-      <p class="tm">Google Play and the Google Play logo are trademarks of Google LLC.</p>
-    </div>
-    <nav class="footer-links" aria-label="Footer">
-      <a href="#legal">Legal notice</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="https://play.google.com/store/apps/details?id=com.rupnar.iptv" rel="noopener">Google Play</a>
-      <a href="https://github.com/rupnardev/rupnariptv-releases/releases" rel="noopener">Releases</a>
-      <a href="https://buymeacoffee.com/rupnardev" rel="noopener">Buy Me a Coffee</a>
+    <p>© 2026 RupnarDev · <a href="mailto:rupnardev@gmail.com">rupnardev@gmail.com</a></p>
+    <nav aria-label="Footer">
+      <a href="../rupnar-iptv/en/privacy.html">Rupnar IPTV privacy</a>
+      <a href="../mi-botiquin/privacidad.html" hreflang="es">Mi botiquín privacy (Spanish)</a>
       <a href="../" hreflang="es" lang="es" data-setlang="es">Español</a>
     </nav>
   </div>
 </footer>
 
-<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged screenshot">
-  <button class="lb-btn lb-close" type="button" aria-label="Close">×</button>
-  <button class="lb-btn lb-prev" type="button" aria-label="Previous">‹</button>
-  <img alt="">
-  <p></p>
-  <button class="lb-btn lb-next" type="button" aria-label="Next">›</button>
-</div>
-
-<script src="../assets/js/site.js" defer></script>
+<script>
+  document.querySelectorAll('[data-setlang]').forEach(function (a) {
+    a.addEventListener('click', function () { try { localStorage.setItem('rupnar_lang', a.getAttribute('data-setlang')); } catch (e) {} });
+  });
+</script>
 </body>
 </html>

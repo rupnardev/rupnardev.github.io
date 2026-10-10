@@ -1,0 +1,109 @@
+/* RupnarDev — portada con las apps. Sin dependencias externas. */
+:root {
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --border: #e1e4ee;
+  --text: #151826;
+  --text-2: #4a5068;
+  --accent: #3b5bdb;
+  --focus: #3b5bdb;
+  --radius: 22px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1118;
+    --surface: #171a24;
+    --border: #2a2f3e;
+    --text: #eef0f6;
+    --text-2: #a9afc4;
+    --accent: #8ea4ff;
+    --focus: #8ea4ff;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--accent); }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 8px; }
+.wrap { width: min(1080px, 100% - 32px); margin-inline: auto; }
+.skip { position: absolute; left: -999px; top: 8px; background: var(--surface); padding: 8px 14px; border-radius: 10px; z-index: 10; }
+.skip:focus { left: 8px; }
+
+/* Cabecera */
+.top { padding: 18px 0; }
+.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.logo { display: inline-flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; font-weight: 800; font-size: 1.15rem; letter-spacing: -.01em; }
+.logo img { width: 36px; height: 36px; border-radius: 10px; }
+.lang { display: flex; gap: 4px; font-weight: 700; font-size: .9rem; }
+.lang a, .lang span { padding: 6px 10px; border-radius: 999px; text-decoration: none; }
+.lang a { color: var(--text-2); }
+.lang span { background: var(--surface); border: 1px solid var(--border); }
+
+/* Presentación */
+.intro { padding: 56px 0 40px; }
+.intro h1 { font-size: clamp(2.1rem, 5.5vw, 3.4rem); line-height: 1.1; letter-spacing: -.03em; margin: 0 0 18px; max-width: 16ch; }
+.intro p { font-size: 1.15rem; color: var(--text-2); max-width: 58ch; margin: 0; }
+
+/* Apps */
+.apps { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; padding-bottom: 64px; }
+.app {
+  border-radius: var(--radius);
+  padding: 28px;
+  display: flex; flex-direction: column; gap: 14px;
+  border: 1px solid var(--border);
+  position: relative; overflow: hidden;
+}
+.app header { display: flex; align-items: center; gap: 16px; }
+.app header img { width: 64px; height: 64px; border-radius: 16px; }
+.app h2 { margin: 0; font-size: 1.5rem; letter-spacing: -.01em; }
+.app .kind { margin: 0; font-size: .95rem; }
+.app > p { margin: 0; }
+.app ul { margin: 0; padding-left: 1.2em; }
+.app li { margin: 2px 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0 !important; }
+.chips li { font-size: .85rem; font-weight: 700; padding: 4px 12px; border-radius: 999px; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: auto; padding-top: 8px; align-items: center; }
+.btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 999px; font-weight: 700; text-decoration: none; }
+
+/* Cada app conserva su propio estilo */
+.app-iptv { background: radial-gradient(120% 90% at 100% 0%, #10294a 0%, #070b17 60%); color: #e8ecf7; border-color: #1c2a48; }
+.app-iptv .kind, .app-iptv > p { color: #aab6d3; }
+.app-iptv .chips li { background: rgba(0, 229, 255, .12); color: #7ff0ff; }
+.app-iptv .btn-main { background: #00e5ff; color: #04121c; }
+.app-iptv .btn-alt { color: #7ff0ff; }
+
+.app-botiquin { background: #ffffff; color: #17211e; border-color: #dde3e0; }
+.app-botiquin .kind, .app-botiquin > p { color: #4b5753; }
+.app-botiquin .chips li { background: #e3f1ee; color: #0b4f44; }
+.app-botiquin .btn-main { background: #0b6e5f; color: #fff; }
+.app-botiquin .btn-alt { color: #0b6e5f; }
+.soon { font-size: .9rem; font-weight: 700; color: #6b3a04; background: #fcefd9; padding: 6px 12px; border-radius: 999px; }
+
+/* Principios */
+.ideas { padding: 8px 0 64px; }
+.ideas h2 { font-size: 1.6rem; margin: 0 0 20px; letter-spacing: -.01em; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.idea { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 20px; }
+.idea h3 { margin: 0 0 6px; font-size: 1.05rem; }
+.idea p { margin: 0; color: var(--text-2); font-size: .97rem; }
+
+/* Pie */
+.foot { border-top: 1px solid var(--border); padding: 28px 0 40px; color: var(--text-2); font-size: .95rem; }
+.foot .wrap { display: flex; flex-wrap: wrap; gap: 12px 28px; justify-content: space-between; }
+.foot nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.foot p { margin: 0; }
+
+@media (max-width: 520px) {
+  .intro { padding: 32px 0 28px; }
+  .app { padding: 22px; }
+  .actions .btn { flex: 1 1 100%; }
+}
