@@ -3,23 +3,29 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>RupnarDev — Simple apps that respect your privacy</title>
+  <title>RupnarDev — App and software development</title>
   <meta name="description" content="RupnarDev makes free apps with no ads and no accounts: Rupnar IPTV, an IPTV player for Windows and Android, and Mi botiquín, to organise the medicines you keep at home (Spain).">
-  <meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0f1118" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#F7F8FA" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121417" media="(prefers-color-scheme: dark)">
   <link rel="canonical" href="https://rupnardev.github.io/en/">
   <link rel="alternate" hreflang="es" href="https://rupnardev.github.io/">
   <link rel="alternate" hreflang="en" href="https://rupnardev.github.io/en/">
   <link rel="alternate" hreflang="x-default" href="https://rupnardev.github.io/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="RupnarDev">
-  <meta property="og:title" content="RupnarDev — Simple apps that respect your privacy">
+  <meta property="og:title" content="RupnarDev — App and software development">
   <meta property="og:description" content="Rupnar IPTV and Mi botiquín: free apps with no ads and no accounts.">
   <meta property="og:url" content="https://rupnardev.github.io/en/">
+  <meta property="og:image" content="https://rupnardev.github.io/assets/brand/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:locale" content="en_GB">
-  <link rel="icon" href="../favicon.ico" sizes="any">
-  <link rel="icon" type="image/svg+xml" href="../assets/img/rupnardev.svg">
-  <link rel="apple-touch-icon" href="../assets/img/rupnardev-180.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/svg+xml" href="../assets/brand/favicon.svg">
+  <link rel="apple-touch-icon" href="../assets/brand/apple-touch-icon.png">
+  <link rel="manifest" href="../assets/brand/site.webmanifest">
+  <link rel="preload" href="../assets/fonts/IBMPlexMono-Bold.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="../assets/css/portfolio.css">
 </head>
 <body>
@@ -27,67 +33,129 @@
 
 <header class="top">
   <div class="wrap">
-    <a class="logo" href="./"><img src="../assets/img/rupnardev.svg" alt="" width="36" height="36">RupnarDev</a>
-    <div class="lang" aria-label="Language">
-      <a href="../" hreflang="es" lang="es" data-setlang="es">ES</a><span aria-current="true">EN</span>
-    </div>
+    <a class="logo" href="./">
+      <img class="theme-light" src="../assets/brand/logo-horizontal-color.svg" alt="RupnarDev" width="141" height="42">
+      <img class="theme-dark" src="../assets/brand/logo-horizontal-inverso.svg" alt="RupnarDev" width="141" height="42">
+    </a>
+    <nav aria-label="Main">
+      <a href="#apps">Apps</a>
+      <a href="#support">Support</a>
+      <div class="lang" aria-label="Language">
+        <a href="../" hreflang="es" lang="es" data-setlang="es">ES</a><span aria-current="true">EN</span>
+      </div>
+    </nav>
   </div>
 </header>
 
 <main id="main">
   <section class="intro">
     <div class="wrap">
-      <h1>Simple apps that respect your privacy</h1>
-      <p>I'm RupnarDev, an independent developer. I make free apps with no ads and no accounts, which keep your data on your device instead of on a server.</p>
+      <div>
+        <p class="kicker"><b>~/</b>rupnardev <b>$</b> App &amp; software development</p>
+        <h1>Simple apps that respect your privacy<span class="node" aria-hidden="true"></span></h1>
+        <p class="lead">I'm RupnarDev, an independent developer. I make free apps with no ads and no accounts, which keep your data on your device instead of on a server.</p>
+        <div class="hero-actions">
+          <a class="btn btn-ink" href="#apps">See the apps</a>
+          <a class="btn btn-line" href="mailto:rupnardev@gmail.com">Get in touch</a>
+        </div>
+        <ul class="stats" aria-label="At a glance">
+          <li><strong>2</strong>apps</li>
+          <li><strong>0</strong>ads</li>
+          <li><strong>0</strong>accounts</li>
+          <li><strong>0</strong>analytics</li>
+        </ul>
+      </div>
+      <div class="mark" aria-hidden="true">
+        <img class="theme-light" src="../assets/brand/simbolo-color.svg" alt="" width="220" height="209">
+        <img class="theme-dark" src="../assets/brand/simbolo-inverso.svg" alt="" width="220" height="209">
+      </div>
     </div>
   </section>
 
-  <section class="wrap apps" aria-label="Apps">
-    <article class="app app-iptv">
-      <header>
-        <img src="../assets/img/icon-256.png" alt="" width="64" height="64">
-        <div>
-          <h2>Rupnar IPTV</h2>
-          <p class="kind">IPTV player</p>
-        </div>
-      </header>
-      <p>Use your own Xtream server or M3U playlist: live TV with programme guide, movies, series and "Continue watching". No content included.</p>
-      <ul class="chips" aria-label="Platforms">
-        <li>Windows</li><li>Android</li><li>English and Spanish</li>
-      </ul>
-      <div class="actions">
-        <a class="btn btn-main" href="../rupnar-iptv/en/">See Rupnar IPTV</a>
-        <a class="btn btn-alt" href="https://play.google.com/store/apps/details?id=com.rupnar.iptv" rel="noopener">Google Play</a>
-      </div>
-    </article>
+  <section class="section" id="apps" aria-labelledby="apps-title">
+    <div class="wrap">
+      <p class="label"><b>01</b> / apps</p>
+      <h2 id="apps-title">My apps</h2>
+      <div class="apps">
+        <article class="app app-iptv">
+          <div class="app-head">
+            <img src="../assets/img/icon-256.png" alt="" width="72" height="72">
+            <div>
+              <h3>Rupnar IPTV</h3>
+              <p class="kind">IPTV player</p>
+            </div>
+          </div>
+          <div class="app-body">
+            <p>Use your own Xtream server or M3U playlist: live TV with programme guide, movies, series and "Continue watching". No content included.</p>
+            <ul class="chips" aria-label="Platforms">
+              <li>Windows</li><li>Android</li><li>English and Spanish</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-main" href="../rupnar-iptv/en/">See Rupnar IPTV</a>
+              <a class="btn btn-line" href="https://play.google.com/store/apps/details?id=com.rupnar.iptv" rel="noopener">Google Play</a>
+            </div>
+          </div>
+        </article>
 
-    <article class="app app-botiquin" lang="es">
-      <header>
-        <img src="../mi-botiquin/assets/img/icono.svg" alt="" width="64" height="64">
-        <div>
-          <h2>Mi botiquín</h2>
-          <p class="kind" lang="en">Home medicine cabinet and reminders</p>
-        </div>
-      </header>
-      <p lang="en">For Spain: look up medicines with official information from the Spanish Medicines Agency (AEMPS), keep track of the ones you have at home and their expiry dates, and set reminders with the regimen your doctor gave you. The app is in Spanish.</p>
-      <ul class="chips" aria-label="Platforms" lang="en">
-        <li>Android</li><li>Spanish only</li>
-      </ul>
-      <div class="actions" lang="en">
-        <a class="btn btn-main" href="../mi-botiquin/" hreflang="es">See Mi botiquín (Spanish)</a>
-        <span class="soon">Coming soon to Google Play</span>
+        <article class="app app-botiquin">
+          <div class="app-head">
+            <img src="../mi-botiquin/assets/img/icono.svg" alt="" width="72" height="72">
+            <div>
+              <h3 lang="es">Mi botiquín</h3>
+              <p class="kind">Home medicine cabinet and reminders</p>
+            </div>
+          </div>
+          <div class="app-body">
+            <p>For Spain: look up medicines with official information from the Spanish Medicines Agency (AEMPS), keep track of the ones you have at home and their expiry dates, and set reminders with the regimen your doctor gave you. The app is in Spanish.</p>
+            <ul class="chips" aria-label="Platforms">
+              <li>Android</li><li>Spanish only</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-main" href="../mi-botiquin/" hreflang="es">See Mi botiquín (Spanish)</a>
+              <span class="soon">Coming soon to Google Play</span>
+            </div>
+          </div>
+        </article>
       </div>
-    </article>
+    </div>
   </section>
 
-  <section class="ideas">
+  <section class="section" aria-labelledby="ideas-title">
     <div class="wrap">
-      <h2>What my apps are like</h2>
+      <p class="label"><b>02</b> / principles</p>
+      <h2 id="ideas-title">What my apps are like</h2>
       <div class="grid">
-        <div class="idea"><h3>Free, no ads</h3><p>No subscriptions, no paid features and no advertising.</p></div>
-        <div class="idea"><h3>No accounts</h3><p>You don't need to sign up or give your email to use them.</p></div>
-        <div class="idea"><h3>Your data stays on your device</h3><p>No servers of my own and no analytics: what you save stays on your phone or PC.</p></div>
-        <div class="idea"><h3>Easy to use</h3><p>Clear screens, big buttons and just enough text.</p></div>
+        <div class="idea"><span class="num">[01]</span><h3>Free, no ads</h3><p>No subscriptions, no paid features and no advertising.</p></div>
+        <div class="idea"><span class="num">[02]</span><h3>No accounts</h3><p>You don't need to sign up or give your email to use them.</p></div>
+        <div class="idea"><span class="num">[03]</span><h3>Your data stays on your device</h3><p>No servers of my own and no analytics: what you save stays on your phone or PC.</p></div>
+        <div class="idea"><span class="num">[04]</span><h3>Easy to use</h3><p>Clear screens, big buttons and just enough text.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="support" aria-labelledby="support-title">
+    <div class="wrap">
+      <p class="label"><b>03</b> / support</p>
+      <div class="panel support">
+        <div>
+          <h2 id="support-title">Support my work</h2>
+          <p>My apps are and will remain free, with no ads. If you find them useful and want to help them improve and reach more people, you can buy me a coffee. It's entirely voluntary.</p>
+          <small>Donations don't unlock any content or extra features: every feature is for everyone.</small>
+        </div>
+        <div class="panel-cta">
+          <a class="btn btn-coffee" href="https://buymeacoffee.com/rupnardev" rel="noopener" target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"/><path d="M8 2.5v2.5M12 2.5v2.5"/></svg>
+            Buy me a coffee
+          </a>
+        </div>
+      </div>
+
+      <div class="panel contact">
+        <div>
+          <h2>An idea, a bug or a suggestion?</h2>
+          <p>Drop me an email, I read every message.</p>
+        </div>
+        <a class="btn btn-ink" href="mailto:rupnardev@gmail.com">rupnardev@gmail.com</a>
       </div>
     </div>
   </section>
@@ -95,8 +163,13 @@
 
 <footer class="foot">
   <div class="wrap">
-    <p>© 2026 RupnarDev · <a href="mailto:rupnardev@gmail.com">rupnardev@gmail.com</a></p>
+    <div class="foot-brand">
+      <img class="theme-light" src="../assets/brand/simbolo-color.svg" alt="" width="30" height="29">
+      <img class="theme-dark" src="../assets/brand/simbolo-inverso.svg" alt="" width="30" height="29">
+      <p>© 2026 RupnarDev</p>
+    </div>
     <nav aria-label="Footer">
+      <a href="https://buymeacoffee.com/rupnardev" rel="noopener">Buy Me a Coffee</a>
       <a href="../rupnar-iptv/en/privacy.html">Rupnar IPTV privacy</a>
       <a href="../mi-botiquin/privacidad.html" hreflang="es">Mi botiquín privacy (Spanish)</a>
       <a href="../" hreflang="es" lang="es" data-setlang="es">Español</a>

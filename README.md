@@ -8,6 +8,7 @@ Sitio estático (HTML, CSS y JavaScript, sin dependencias ni compilación) publi
 |---|---|
 | `index.html` · `en/index.html` | Portada de RupnarDev con las apps (español e inglés) |
 | `assets/css/portfolio.css` | Estilos de la portada |
+| `assets/brand/` · `assets/fonts/` | Logos, favicon e imagen OG de RupnarDev, y la tipografía IBM Plex Mono (SIL OFL) |
 | `rupnar-iptv/` · `rupnar-iptv/en/` | Web de Rupnar IPTV (español e inglés) y su política de privacidad |
 | `assets/css/site.css` · `assets/js/site.js` · `assets/img/` | Estilos, script e imágenes de Rupnar IPTV |
 | `mi-botiquin/` | Web de Mi botiquín (solo español): presentación, `privacidad.html` y `terminos.html` |
