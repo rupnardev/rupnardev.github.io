@@ -95,6 +95,8 @@ section { padding: 56px 0; }
 .btn-outline { border-color: var(--border); background: var(--card); color: var(--text) !important; }
 .soon { display: inline-flex; align-items: center; gap: 8px; min-height: 56px; padding: 0 22px; border-radius: 999px; background: var(--warn-bg); color: var(--warn-text); font-weight: 700; }
 .soon svg { width: 22px; height: 22px; }
+.gp-badge { display: inline-flex; border-radius: 12px; }
+.gp-badge img { height: 58px; width: auto; display: block; }
 .meta { margin: 18px 0 0; color: var(--text-2); font-size: 1rem; }
 .hero-phones { display: flex; justify-content: center; align-items: flex-start; position: relative; }
 .hero-phones .phone { width: 46%; max-width: 250px; }
